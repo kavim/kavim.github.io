@@ -1,384 +1,265 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kevin M. Medeiros</title>
+    <!-- Include the Alpine library on your page -->
+    <script src="https://unpkg.com/alpinejs" defer></script>
+    <!-- Include the TailwindCSS library on your page -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
 
-<!--HOLA, ME CONTRATA!!!!-->
-
-<head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="kavimmm">
-  <meta name="author" content="kavimmm">
-
-  <title>Kevin MM</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900"
-    rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
-    rel="stylesheet">
-  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
-  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href=" css/resume.css" rel="stylesheet">
-  <link href=" css/meu.css" rel="stylesheet">
-  <link href=" css/animate.min.css" rel="stylesheet">
-
-  <style>
-    .filtro {
-      background-color: rgba(0, 0, 0, 0.5);
-      width: 100%;
-      height: 100%;
-    }
-
-    .bg-dokavim {
-      background-color: #1c1c1c;
-      background: url(img/bg/bg4.jpg) top center repeat;
-    }
-
-    .lik {
-      text-align: center;
-      padding: 5px 10px;
-      text-decoration: none;
-      /* color: rgba(255,255,255,.5); */
-      color: red;
-      background-color: rgba(0, 0, 0, 0.5);
-      font-weight: 600;
-      text-transform: uppercase;
-
-    }
-
-    .lik:hover {
-      text-decoration: none;
-      color: rgba(255, 255, 255, 1);
-    }
-
-    @media (min-width: 992px) {
-
-      .lik {
-        color: red;
-      }
-    }
-  </style>
-
-</head>
-
-<body id="page-top">
-
-  <nav class="bg-dokavim navbar navbar-expand-lg navbar-dark fixed-top animated fadeInLeft" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Portifólio</span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2"
-          src="https://avatars.githubusercontent.com/u/13967729?v=4" alt="">
-      </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger fadeIn" href="#about">Sobre</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experiencia</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#port">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">habilidades</a>
-        </li>
-      </ul>
+  <body>
+    <div class="md:bg-gray-100 md:min-h-screen w-full">
+      <div class="flex flex-col">
+        <div
+          class="p-3 md:py-10 md:px-16 mt-10 bg-white mx-auto md:rounded-lg md:shadow-lg"
+        >
+          <div class="flex aling-center justify-start">
+            <div>
+              <figure>
+                <img
+                  class="w-24 h-24 rounded-full mx-auto"
+                  src="https://avatars.githubusercontent.com/u/13967729?v=4"
+                  alt=""
+                />
+              </figure>
+            </div>
+            <div class="flex flex-col aling-center justify-center ml-2">
+              <h1 class="md:text-4xl text-2xl text-gray-700">
+                Kevin M. Medeiros
+              </h1>
+              <h2 class="text-2xl text-gray-500">Software Engineer</h2>
+            </div>
+          </div>
+          <div class="max-w-md mt-10 flex flex-col">
+            <strong class="text-2xl">👋 Olá</strong>
+            <p>
+              Sou Desenvolvedor Web Full-stack, tenho 5+ anos de experiência
+              trabalhando com tecnologias de desenvolvimento Web. Principalmente
+              trabalhando com Laravel.
+            </p>
+          </div>
+          <div class="max-w-md mt-10 flex flex-col">
+            <span class="flex">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                data-supported-dps="24x24"
+                fill="#0f66be"
+                class="mercado-match"
+                width="24"
+                height="24"
+                focusable="false"
+              >
+                <path
+                  d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"
+                ></path>
+              </svg>
+              <span class="ml-1">
+                <a
+                  class="font-semibold text-blue-600 underline dark:text-blue-500 hover:no-underline"
+                  href="https://www.linkedin.com/in/kevin-maciel-medeiros-602b66159/"
+                  >LinkedIn</a
+                >
+              </span>
+            </span>
+            <div class="mt-3 flex justify-start aling-center">
+              <span class="font-semibold">📞 +55 (55) 98452-8660</span>
+              <div
+                x-data="{
+                  copyText: '+55 (55) 98452-8660',
+                  copyNotification: false,
+                  copyToClipboard() {
+                      navigator.clipboard.writeText(this.copyText);
+                      this.copyNotification = true;
+                      let that = this;
+                      setTimeout(function(){
+                          that.copyNotification = false;
+                      }, 3000);
+                  }
+              }"
+                class="relative z-20 flex items-center ml-4"
+              >
+                <div
+                  x-show="copyNotification"
+                  x-transition:enter="transition ease-out duration-300"
+                  x-transition:enter-start="opacity-0 translate-x-2"
+                  x-transition:enter-end="opacity-100 translate-x-0"
+                  x-transition:leave="transition ease-in duration-300"
+                  x-transition:leave-start="opacity-100 translate-x-0"
+                  x-transition:leave-end="opacity-0 translate-x-2"
+                  class="absolute left-0"
+                  x-cloak
+                >
+                  <div
+                    class="px-3 h-7 -ml-1.5 items-center flex text-xs bg-green-500 border-r border-green-500 -translate-x-full text-white rounded"
+                  >
+                    <span>Copied!</span>
+                    <div
+                      class="absolute right-0 inline-block h-full -mt-px overflow-hidden translate-x-3 -translate-y-2 top-1/2"
+                    >
+                      <div
+                        class="w-3 h-3 origin-top-left transform rotate-45 bg-green-500 border border-transparent"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  @click="copyToClipboard();"
+                  class="text-lg flex items-center justify-center bg-white cursor-pointer border-neutral-200/60 hover:bg-neutral-100 active:bg-white focus:bg-white focus:outline-none text-neutral-500 hover:text-neutral-600 group"
+                >
+                  <svg
+                    x-show="copyNotification"
+                    class="w-6 h-6 text-green-500 stroke-current"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    x-cloak
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M4.5 12.75l6 6 9-13.5"
+                    />
+                  </svg>
+                  <svg
+                    x-show="!copyNotification"
+                    class="w-6 h-6 stroke-current"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g fill="none" stroke="none">
+                      <path
+                        d="M7.75 7.757V6.75a3 3 0 0 1 3-3h6.5a3 3 0 0 1 3 3v6.5a3 3 0 0 1-3 3h-.992"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                      <path
+                        d="M3.75 10.75a3 3 0 0 1 3-3h6.5a3 3 0 0 1 3 3v6.5a3 3 0 0 1-3 3h-6.5a3 3 0 0 1-3-3v-6.5z"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </g>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="mt-3 flex justify-start aling-center">
+              <span id="phone" class="font-semibold">
+                ✉️ kevinmmti@gmail.com</span
+              >
+              <div
+                x-data="{
+                  copyText: 'kevinmmti@gmail.com',
+                  copyNotification: false,
+                  copyToClipboard() {
+                      navigator.clipboard.writeText(this.copyText);
+                      this.copyNotification = true;
+                      let that = this;
+                      setTimeout(function(){
+                          that.copyNotification = false;
+                      }, 3000);
+                  }
+              }"
+                class="relative z-20 flex items-center ml-4"
+              >
+                <div
+                  x-show="copyNotification"
+                  x-transition:enter="transition ease-out duration-300"
+                  x-transition:enter-start="opacity-0 translate-x-2"
+                  x-transition:enter-end="opacity-100 translate-x-0"
+                  x-transition:leave="transition ease-in duration-300"
+                  x-transition:leave-start="opacity-100 translate-x-0"
+                  x-transition:leave-end="opacity-0 translate-x-2"
+                  class="absolute left-0"
+                  x-cloak
+                >
+                  <div
+                    class="px-3 h-7 -ml-1.5 items-center flex text-xs bg-green-500 border-r border-green-500 -translate-x-full text-white rounded"
+                  >
+                    <span>Copied!</span>
+                    <div
+                      class="absolute right-0 inline-block h-full -mt-px overflow-hidden translate-x-3 -translate-y-2 top-1/2"
+                    >
+                      <div
+                        class="w-3 h-3 origin-top-left transform rotate-45 bg-green-500 border border-transparent"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  @click="copyToClipboard();"
+                  class="text-lg flex items-center justify-center bg-white cursor-pointer border-neutral-200/60 hover:bg-neutral-100 active:bg-white focus:bg-white focus:outline-none text-neutral-500 hover:text-neutral-600 group"
+                >
+                  <svg
+                    x-show="copyNotification"
+                    class="w-6 h-6 text-green-500 stroke-current"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    x-cloak
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M4.5 12.75l6 6 9-13.5"
+                    />
+                  </svg>
+                  <svg
+                    x-show="!copyNotification"
+                    class="w-6 h-6 stroke-current"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g fill="none" stroke="none">
+                      <path
+                        d="M7.75 7.757V6.75a3 3 0 0 1 3-3h6.5a3 3 0 0 1 3 3v6.5a3 3 0 0 1-3 3h-.992"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                      <path
+                        d="M3.75 10.75a3 3 0 0 1 3-3h6.5a3 3 0 0 1 3 3v6.5a3 3 0 0 1-3 3h-6.5a3 3 0 0 1-3-3v-6.5z"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </g>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <span class="mt-3 font-semibold"
+              >📍 Santana do Livramento – RS, Brasil / Rivera, Uruguay</span
+            >
+          </div>
+        </div>
+      </div>
     </div>
-  </nav>
+    <script>
+      function copyIt(id) {
+        // Get the text field
+        var copyText = document.getElementById(id);
 
+        // Select the text field
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); // For mobile devices
 
-  <div class="container-fluid p-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex d-column wow fadeIn" id="about">
-      <div class="my-auto">
-        <h1 class="mb-0">Kevin
-          <span class="text-secondary">M. Medeiros</span>
-        </h1>
-        <div class="subheading mb-5">Livramento/rivera · (55) 55-98452 8660 ·
-          <a href="mailto:name@email.com">kevinmmti@gmail.com</a>
-        </div>
-
-        <ul class="list-inline list-social-icons mb-0">
-          <li class="list-inline-item sr-social">
-            <a href="https://facebook.com/kmmtmg/">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li class="list-inline-item sr-social">
-            <a href="#">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-telegram fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-
-          <li class="list-inline-item sr-social">
-            <a href="https://www.linkedin.com/in/kevin-m-medeiros-602b66159/">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li class="list-inline-item sr-social">
-            <a href="https://github.com/kavim">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column wow fadeIn" id="experience">
-      <div class="my-auto">
-        <h2 class="mb-5">Experiência</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">Desenvolvedor Web </h3>
-            <div class="subheading mb-3">front-end </div>
-            <p>
-              A espetacular habilidade de encantar os usuários. Uma tarefa extremamente importante e crucial na hora de
-              vender nossa ideia. Procuro sempre agilizar o desenvolvimento utilizando frameworks como essa template com
-              Boostrap v4.0 que estou usando agora. Mas claro sem deixar de aprender novas técnicas e “truques” de
-              estilização e “enfeitinhos” com os queridos CSS3, Jquery e demais xD. </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Ajustando aquele pixel desde 2014-</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <div class="subheading mb-3">Back-end</div>
-            <p>
-              Aaaahhh sobre dar vida a páginas estáticas…
-              Desde de que compilei aquele “programinha” em C nunca mais parei de pesquisar e absorver conhecimento
-              sobre programação. E essa vontade de desenvolver coisas mais complexas me levaram a aprender PHP e PHP
-              orientado a objetos (POO), padrões de programação e frameworks dos mais simples como o MCV do Gill até
-              laravel que vem sendo meu foco de estudo. Esta é sem dúvida a parte onde eu mais gosto de atuar, apesar de
-              não ter tanto “brilho” quanto o front-end.
-            </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">MinorBugFixError desde 2017</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">LINUX</h3>
-            <div class="subheading mb-3">sudo apt install job-bem-massa</div>
-            <p>
-              Já testei (por no minimo 1 mes) inúmeras distribuições, e destas a que mais gostei e usei foi o ubuntu e
-              dos seus sabores KDE é meu favorito.
-              Mas saindo dos desktops, minhas experiência de alguns anos me levou a me aventurar nos servidores, afinal
-              tela preta e letra branca é o que me atrai, fazer configurações em um servidor linux para usá-lo como
-              servidor web é muito útil para um ecossistema de desenvolvimento e testes. Ainda não sou um sysAdmin mas
-              tudo tem um começo.
-              Apesar de usar ubuntu como sistema operacional padrão a quase 5 anos e preferir usá-lo para desenvolver e
-              todas as outras tarefas de dia a dia não sou um fanboy odiador do ruindow… Digo Windows.
-            </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary"> Dezembro 2013</span>
-          </div>
-        </div>
-
-      </div>
-
-    </section>
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column wow fadeIn" id="port">
-      <div class="my-auto">
-        <h2 class="mb-5">Portfolio</h2>
-        <div class="subheading mb-3">Eu já fiz uma baita sistema?</div>
-        <div class="col-12 mx-auto">
-          Bueno, já tive varias Experiencias mas a que eu mais me orgulho de ter feito parte é o <a
-            href="https://baitadelivery.com">Baita Delivery (projeto descontinuado)</a>
-        </div>
-        <div class="col-12 mx-auto">
-          Bem como, fazer parte da <a href="https://www.cambioreal.com/" style="color: #4d0091!important;">Cambio
-            Real</a>
-        </div>
-        <div class="col-12 mx-auto">
-          Projetos recentes <a href="https://areabinacional.com/" style="color: #E55A07 !important;">Area
-            Binacional/</a> e <a href="https://destinobinacional.com/" style="color: #27348B !important;">Area
-            Binacional/</a>
-        </div>
-        <div class="col-12 text-center mx-auto">
-          Conheça <a href="https://www.loscarpinchos.com/" style="color: #253141!important;">Los Carpinchos</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-      <div class="my-auto wow fadeIn">
-        <h2 class="mb-5">Skills</h2>
-
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-        <ul class="list-inline list-icons">
-          <li class="list-inline-item">
-            <i class="devicons devicons-php"></i>
-          </li>
-          <li class="list-inline-item sr-icons">
-            <i class="devicons devicons-html5"></i>
-          </li>
-          <li class="list-inline-item sr-icons">
-            <i class="devicons devicons-css3"></i>
-          </li>
-          <li class="list-inline-item sr-icons">
-            <i class="devicons devicons-javascript"></i>
-          </li>
-          <li class="list-inline-item sr-icons">
-            <i class="devicons devicons-jquery"></i>
-          </li>
-          <li class="list-inline-item sr-icons">
-            <i class="devicons devicons-laravel"></i>
-          </li>
-          <li class="list-inline-item sr-icons">
-            <i class="devicons devicons-git"></i>
-          </li>
-          <li class="list-inline-item sr-icons">
-            <i class="devicons devicons-nginx"></i>
-          </li>
-          <li class="list-inline-item sr-icons">
-            <i class="devicons devicons-docker"></i>
-          </li>
-          <li class="list-inline-item sr-icons">
-            <i class="devicons devicons-npm"></i>
-          </li>
-          <li class="list-inline-item sr-icons">
-            <i class="devicons devicons-bootstrap"></i>
-          </li>
-          <li class="list-inline-item sr-icons">
-            <i class="devicons devicons-mysql"></i>
-          </li>
-          <li class="list-inline-item sr-icons">
-            <i class="devicons devicons-atom"></i>
-          </li>
-          <li class="list-inline-item sr-icons">
-            <i class="devicons devicons-sublime"></i>
-          </li>
-          <li class="list-inline-item sr-icons">
-            <i class="devicons devicons-visualstudio"></i>
-          </li>
-          <li class="list-inline-item sr-icons">
-            <i class="devicons devicons-netbeans"></i>
-          </li>
-          <li class="list-inline-item sr-icons">
-            <i class="devicons devicons-intellij"></i>
-          </li>
-          <li class="list-inline-item sr-icons">
-            <i class="devicons devicons-vim"></i>
-          </li>
-          <li class="list-inline-item sr-icons">
-            <i class="devicons devicons-ubuntu"></i>
-          </li>
-          <li class="list-inline-item sr-icons">
-            <i class="devicons devicons-debian"></i>
-          </li>
-          <li class="list-inline-item sr-icons">
-            <i class="devicons devicons-linux"></i>
-          </li>
-          <li class="list-inline-item sr-icons">
-            <i class="devicons devicons-gnu"></i>
-          </li>
-          <li class="list-inline-item sr-icons">
-            <i class="devicons devicons-terminal"></i>
-          </li>
-          <li class="list-inline-item sr-icons">
-            <i class="devicons devicons-code"></i>
-          </li>
-          <li class="list-inline-item sr-icons">
-            <i class="devicons devicons-photoshop"></i>
-          </li>
-        </ul>
-
-        <div class="subheading mb-3">Workflow</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Scrum - Desenvolvimento Ágil
-          </li>
-          <li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Mobile-First, Design reponsivo
-          </li>
-          <li>
-
-        </ul>
-      </div>
-    </section>
-
-
-  </div>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
-
-  <script src="js/wow.js"></script>
-
-  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-
-  <script>
-    // Scroll reveal calls
-    window.sr = ScrollReveal();
-    sr.reveal('.sr-icons', {
-      duration: 1000,
-      scale: 0.3,
-      distance: '0px'
-    }, 200);
-    sr.reveal('.sr-button', {
-      duration: 1000,
-      delay: 200
-    });
-    sr.reveal('.sr-contact', {
-      duration: 600,
-      scale: 0.3,
-      distance: '0px'
-    }, 300);
-    sr.reveal('.sr-social', {
-      duration: 600,
-      scale: 0.3,
-      distance: '0px'
-    }, 600);
-  </script>
-
-  <script>
-    new WOW().init();
-    console.log("Ola, Me contrata!!");
-  </script>
-
-
-</body>
-
+        // Copy the text inside the text field
+        navigator.clipboard.writeText(copyText.value);
+      }
+    </script>
+  </body>
 </html>
